@@ -1,5 +1,5 @@
 <?php
-
+test data
 include_once("database.php");
 $postdata = file_get_contents("php://input");
 if(isset($postdata) && !empty($postdata))
